@@ -1,10 +1,32 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+h1{
+    color: grey;
+    font-family: verdana;
+    text-align: center;
+}
 .maindiv {
     background-color: white;
-    width: 300px;
     color: black;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
-    align: center;
+}
+table {
+    padding-left: 80px;
+}
+td {
+    padding: 5px 15px;
+}
+button {
+    margin-left: 95px;
+}
+.result {
+    padding-left: 95px;
+}
+footer {
+  padding-left: 25px;
 }
