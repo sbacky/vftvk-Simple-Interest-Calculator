@@ -20,10 +20,10 @@ function updateRate() {
 }
 function checkdata() {
     // Get prinicpal element from form
-    var principal = document.getElementById("principal").value;
+    var principal = document.getElementById("principal");
     
     // Check if principal field is empty
-    if(principal<1){
+    if(principal.value<1){
         alert("Enter a positive number");
         principal.focus();
         return false;
